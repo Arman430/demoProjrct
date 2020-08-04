@@ -3,12 +3,11 @@ package method;
 public class LearnMethod {
 
 
-    public int doSummaation (){
+    public void doSummations(){
         int num1 = 29;
         int num2 = 34;
         int sum= num1+num2;
-        System.out.println("Summaation valus is " + sum);
-        return sum;
+        System.out.println("Summations vales is " + sum);
     }
 
 
@@ -24,7 +23,7 @@ public class LearnMethod {
     public String stInfo (String fName, String lName, int age){
 
         String fullName= fName+" "+lName;
-        System.out.println("Full name is " + fullName+"Age"+age;
+        System.out.println("Full name is " + fullName+"Age"+age);
         return fullName;
 
     }
@@ -41,9 +40,9 @@ public class LearnMethod {
     public static void main(String[] args) {
         LearnMethod.stInfo();
         LearnMethod obj= new LearnMethod();
-        obj.doSummaation();
+        obj.doSummations();
         obj.doSubtraction(30,33);
-        obj.stInfo("Arman", , 24);
+        obj.stInfo("Arman","Hossain" ,24);
 
     }
 }
