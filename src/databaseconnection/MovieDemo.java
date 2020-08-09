@@ -9,7 +9,7 @@ public class MovieDemo {
 
     public static void main(String[] args) throws Exception {
         // JDBC connection
-        String url = "jdbc:mysql://localhost:3306/pnt?serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/PNT_now?serverTimezone=UTC";
         String user = "root";
         String password = "LearnSQL";
 

@@ -250,10 +250,10 @@ public class ConnectDB {
 
 
        // connectToSqlDatabase();
-       // readDataBase("movie","title");
-        //System.out.println();
-        //readDataBase("movie","release_year");
-       //readDataBase("movie","genre","mpaa_rating");
+        readDataBase("movie","title");
+        System.out.println();
+        readDataBase("movie","release_year");
+        readDataBase("movie","genre","mpaa_rating");
 
 
 
