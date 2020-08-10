@@ -30,7 +30,7 @@ public class TestUnitTesting {
         //Calculator.doSubtraction(30,40);
         int epResult =11;
         int acResult= Calculator.doSubtraction(30,40);
-        //Assert.assertEquals(epResult,acResult);
+        Assert.assertEquals(epResult,acResult);
         Assert.assertEquals("Test fall",epResult,acResult );
 
 
